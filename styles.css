@@ -1,0 +1,42 @@
+
+
+html {
+	
+	height: 100vh;
+}
+body {
+    padding: 20px;
+    background-color: #393E46;
+    color: #D4D4D2;
+}
+
+img{
+    width: 200px;
+    border-radius: 100%;
+    -webkit-box-shadow: 5px 5px 10px 5px #000000; 
+box-shadow: 5px 5px 25px 5px #000000;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    gap: 80px;
+}
+h1{
+    text-align: center;
+}
+.title{
+    -webkit-box-shadow: 5px 5px 10px 5px #000000; 
+    box-shadow: 5px 5px 25px 5px #000000;
+    border-radius: 100px;
+    text-align: center;
+}
+#quote{
+    width: 20rem;
+}
+
+button{
+    color: white;
+}
